@@ -9,6 +9,7 @@ colorscheme Tomorrow-Night
 " Enable clipboard integration
 "set clipboard=unnamed
 
+set cursorline
 set nostartofline
 set hidden
 

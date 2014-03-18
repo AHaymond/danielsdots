@@ -9,6 +9,8 @@ colorscheme Tomorrow-Night
 " Enable clipboard integration
 "set clipboard=unnamed
 
+set foldmethod=indent
+set foldlevelstart=9999
 set cursorline
 set nostartofline
 set hidden

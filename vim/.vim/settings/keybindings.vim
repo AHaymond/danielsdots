@@ -2,6 +2,13 @@ let mapleader = ","
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
+" Insert a single character, allows for repetition such as 5s
+" http://vim.wikia.com/wiki/Insert_a_single_character
+function! RepeatChar(char, count)
+  return repeat(a:char, a:count)
+endfunction
+nnoremap s :<C-U>exec "normal i".RepeatChar(nr2char(getchar()), v:count1)<CR>
+nnoremap S :<C-U>exec "normal a".RepeatChar(nr2char(getchar()), v:count1)<CR>
 
 " Reselect visual block after indent/outdent
 " http://www.vimbits.com/bits/20
@@ -99,8 +106,8 @@ vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 
 " Easymotion
-nmap s <Plug>(easymotion-s)
-nmap S <Plug>(easymotion-s2)
+"nmap s <Plug>(easymotion-s)
+"nmap S <Plug>(easymotion-s2)
 map f <Plug>(easymotion-f)
 map F <Plug>(easymotion-F)
 nmap <Leader>J <Plug>(easymotion-eol-j)

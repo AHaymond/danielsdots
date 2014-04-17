@@ -44,3 +44,4 @@ function! DoPrettyXML()
   exe "set ft=" . l:origft
 endfunction
 command! PrettyXML call DoPrettyXML()
+autocmd BufWritePre  *.{rb,php,scss,js}  call StripTrailingWhite()

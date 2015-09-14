@@ -55,9 +55,10 @@ Plugin 'majutsushi/tagbar'
 
 " ==================== Color ======================
 Plugin 'chriskempson/vim-tomorrow-theme'
-Plugin 'trevorrjohn/vim-obsidian'
-Plugin 'mkarmona/colorsbox'
-Plugin 'nicklasos/numix-molokai'
+Plugin 'crusoexia/vim-monokai'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'morhetz/gruvbox'
+Plugin 'fatih/molokai'
 " =================================================
 
 " ===================== UI ========================
@@ -80,6 +81,7 @@ Plugin 'tpope/vim-commentary'
 " =================================================
 
 " ============= Language Additions ================
+"Bundle 'scrooloose/syntastic'
 Plugin 'scrooloose/syntastic'
   set statusline+=%#warningmsg#
   set statusline+=%{SyntasticStatuslineFlag()}

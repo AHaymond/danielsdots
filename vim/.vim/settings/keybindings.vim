@@ -58,6 +58,7 @@ nmap <C-i> :GoImports<CR>
 " map <Esc>[B <Down>
 
 " So we can use the arrow keys but still act like regular vim
+" The imap turn off the arrow keys when in insert mode
 imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
@@ -147,3 +148,6 @@ function! XTermPasteBegin()
 endfunction
 
 inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
+
+" Dash plugin key bindings for the Mac OS X Dash app
+nmap <silent> <leader>d <Plug>DashSearch

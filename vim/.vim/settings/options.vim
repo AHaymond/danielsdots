@@ -4,9 +4,8 @@ if has('mouse')
 endif
 
 set t_Co=256
-"colorscheme Tomorrow-Night
-colorscheme monokai
-"set background=dark "remove to switch Gruvbox to light color theme
+" colorscheme deepsea
+colorscheme Tomorrow-Night
 
 " Enable clipboard integration
 "set clipboard=unnamed
@@ -15,6 +14,7 @@ set foldmethod=indent
 set foldlevelstart=9999
 set cursorline
 set nostartofline
+set cursorline
 set hidden
 
 set number

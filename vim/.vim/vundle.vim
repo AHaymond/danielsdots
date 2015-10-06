@@ -59,6 +59,7 @@ Plugin 'crusoexia/vim-monokai'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'fatih/molokai'
+Plugin 'antlypls/vim-colors-codeschool'
 " =================================================
 
 " ===================== UI ========================

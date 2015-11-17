@@ -3,8 +3,8 @@
 ####################################
 
 if [[ `uname` == "Linux" ]]; then
-  DOCKERCMD="sudo docker"
-  DOCKERCOMPOSECMD="sudo docker-compose"
+  DOCKERCMD="docker"
+  DOCKERCOMPOSECMD="docker-compose"
 else
   DOCKERCMD="docker"
   DOCKERCOMPOSECMD="docker-compose"

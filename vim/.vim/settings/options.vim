@@ -12,7 +12,6 @@ colorscheme Tomorrow-Night
 
 set foldmethod=indent
 set foldlevelstart=9999
-set cursorline
 set nostartofline
 set cursorline
 set hidden

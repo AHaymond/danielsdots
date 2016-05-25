@@ -89,7 +89,6 @@ Plugin 'tpope/vim-commentary'
 " =================================================
 
 " ============= Language Additions ================
-"Bundle 'scrooloose/syntastic'
 Plugin 'scrooloose/syntastic'
   set statusline+=%#warningmsg#
   set statusline+=%{SyntasticStatuslineFlag()}
